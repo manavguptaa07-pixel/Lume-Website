@@ -321,10 +321,6 @@ body{background:var(--cream2);letter-spacing:.005em}
 .hero-points li:before{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--gold2);vertical-align:middle;margin:0 9px 2px 0}
 .hero-3d{height:min(76vh,680px);min-height:480px;isolation:isolate}
 .hero-orbit{position:absolute;z-index:-1;width:min(42vw,510px);aspect-ratio:1;border:1px solid rgba(219,195,147,.14);border-radius:50%;left:50%;top:48%;transform:translate(-50%,-50%);box-shadow:0 0 0 34px rgba(219,195,147,.025),0 0 0 86px rgba(219,195,147,.02)}
-.hero-product-note{position:absolute;z-index:2;right:2%;bottom:12%;display:flex;flex-direction:column;padding:16px 20px;background:rgba(11,15,22,.78);border:1px solid rgba(220,192,138,.28);backdrop-filter:blur(12px);box-shadow:0 18px 50px rgba(0,0,0,.2)}
-.hero-product-note span{font-size:.58rem;letter-spacing:.2em;color:var(--gold2)}
-.hero-product-note b{font-family:var(--serif);font-size:1.45rem;font-weight:500;color:var(--cream)}
-.hero-product-note small{color:#c5c7bd;font-size:.68rem}
 .drag-hint{bottom:2%;font-size:.62rem;letter-spacing:.17em;color:#c2c4b8}
 .drag-hint span{display:inline-block;width:20px;height:1px;background:var(--gold2);vertical-align:middle;margin-right:8px}
 .no-webgl .hero-3d{display:block}
@@ -412,7 +408,6 @@ details p{max-width:700px;line-height:1.85;color:#7b7164}
   .hero-points{justify-content:flex-start;gap:12px 17px;font-size:.63rem}
   .hero-3d{height:360px;min-height:0;margin:0 -14px}
   .hero-orbit{width:76vw}
-  .hero-product-note{display:none}
   .drag-hint{font-size:.55rem}
   .section h2{font-size:2.8rem;margin-bottom:30px}
   .concern-grid,.steps{grid-template-columns:1fr}
